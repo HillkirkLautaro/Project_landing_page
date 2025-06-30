@@ -1,3 +1,4 @@
+
 .header, .footer {
     background-color: #4A4A4A;
     padding: 1rem;
@@ -19,10 +20,10 @@
   }  
 
 main {
-    background-color: #6A0572;
+    background-color: #A8E6CF;
     padding: 1rem;
     text-align: center;
-    color: #4A4A4A;
+    color: #6A0572;
     font-family: 'Cabin Sketch', cursive;
 }
 
@@ -38,4 +39,20 @@ h1 {
     font-style: normal;
   }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    padding: 0 12rem 0rem 0;
+}
   
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+  
+.nav-links a {
+    text-decoration: none;
+    color: #6A0572;
+    font-weight: bold;
+}
