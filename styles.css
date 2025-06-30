@@ -1,0 +1,41 @@
+.header, .footer {
+    background-color: #4A4A4A;
+    padding: 1rem;
+    text-align: center;
+    color: #6A0572;
+    font-family: 'Freckle Face', cursive;
+}
+
+.cabin-sketch-regular {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cabin-sketch-bold {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }  
+
+main {
+    background-color: #6A0572;
+    padding: 1rem;
+    text-align: center;
+    color: #4A4A4A;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.freckle-face-regular {
+    font-family: "Freckle Face", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1 {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  
