@@ -20,12 +20,14 @@
   }  
 
 main {
-    display: flex;
+    display: grid;
     background-color: #A8E6CF;
     padding: 1rem;
     text-align: center;
     color: #6A0572;
     font-family: 'Cabin Sketch', cursive;
+    justify-content: center;
+    align-items: center;
 }
 
 .freckle-face-regular {
@@ -40,32 +42,57 @@ h1 {
     font-style: normal;
   }
 
-nav {
+.navbar {
     display: flex;
-    justify-content: flex-end;
-    gap: 3rem;
-    padding: 0 12rem 0rem 0;
+    justify-content: space-between; /* Logo a la izq, nav a la der */
+    align-items: center;            /* ¡Esto alinea verticalmente! */
+    padding: 1rem 2rem;
 }
-  
 .nav-links {
-    list-style: none;
     display: flex;
+    gap: 1.5rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap; /* permite saltar de línea si no hay espacio */
 }
   
 .nav-links a {
     text-decoration: none;
     color: #6A0572;
     font-weight: bold;
-    font-size: 18px;
+    font-family: "Cabin Sketch", sans-serif;
+    font-size: 1.2rem;
+}
+  
+/* Responsive: apila verticalmente en pantallas chicas */
+@media (max-width: 600px) {
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .nav-links a {
+      font-size: 1rem;
+    }
+}
+  
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
-.logo {
+p.p-logo {
     font-family: "Cabin Sketch", sans-serif;
     font-weight: 700;
     font-style: normal;
     display: flex;
     justify-content: flex-start;
-    padding: 0 0 0 12rem;
+    padding: 0rem 20rem 0rem 0rem;
     font-size: 24px;
 }
 
+div.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
