@@ -1,6 +1,6 @@
 # Landing Page Project
 
-![Preview](./dark%20kitty.png)
+![Preview](./dark-kitty.png)
 
 Este es un proyecto de página de aterrizaje (landing page) desarrollado como parte del currículo de The Odin Project. La página está diseñada para ser responsiva y utiliza HTML5 y CSS3 moderno.
 
@@ -28,7 +28,7 @@ Este es un proyecto de página de aterrizaje (landing page) desarrollado como pa
 project_landing_page/
 ├── index.html          # Archivo principal HTML
 ├── styles.css         # Estilos CSS
-├── dark kitty.png     # Imagen de ejemplo
+├── dark-kitty.png     # Imagen de ejemplo
 └── README.md          # Este archivo
 ```
 
@@ -45,11 +45,11 @@ Puedes personalizar esta landing page modificando:
 - Los colores en el archivo `styles.css`
 - El contenido en el archivo `index.html`
 - Las fuentes en las etiquetas `<link>` del `index.html`
-- Las imágenes reemplazando `dark kitty.png`
+- Las imágenes reemplazando `dark-kitty.png`
 
 ## Vista Previa
 
-![Vista previa de la página](./dark%20kitty.png)
+![Vista previa de la página](./dark-kitty.png)
 
 ## Créditos
 
