@@ -1,10 +1,103 @@
-
 .header, .footer {
     background-color: #4A4A4A;
     padding: 1rem;
     text-align: center;
     color: #6A0572;
     font-family: 'Freckle Face', cursive;
+}
+
+/* Header layout */
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 0 7rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 0;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+}
+.section h2 {
+    font-size: 24px;
+    margin: 0 0 1rem 0;
+    color: #4A4A4A;
+    padding: 0;
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+    background-color: #FFC0CB;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+.header h1 {
+    font-size: 48px;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    font-family: 'Cabin Sketch', cursive;
+    text-align: left;
+}
+.section h1 {
+    font-size: 36px;
+    margin: 0 0 1rem 0;
+    color: #4A4A4A;
+    padding: 0;
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+}
+
+.header p {
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: bold;
+}
+
+.header .img {
+    max-width: 45%;
+    height: auto;
+    object-fit: contain;
+}
+
+.flexboxcontainer {
+    padding: 0 7rem;
+}
+
+.flexboxcontainer h1 {
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+.flexboxcontainer p {
+    font-size: 18px;
+    margin: 0.5rem 0 0 0;
+    font-family: 'Cabin Sketch', cursive;
+    font-weight: bold;
+}
+
+.flexboxcontainer header div {
+    display: flex;
+    justify-content: space-between;
 }
 
 .cabin-sketch-regular {
@@ -20,14 +113,11 @@
   }  
 
 main {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     background-color: #A8E6CF;
-    padding: 1rem;
-    text-align: center;
     color: #6A0572;
     font-family: 'Cabin Sketch', cursive;
-    justify-content: center;
-    align-items: center;
 }
 
 .freckle-face-regular {
@@ -36,18 +126,6 @@ main {
     font-style: normal;
   }
 
-h1 {
-    font-family: "Cabin Sketch", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-
-.navbar {
-    display: flex;
-    justify-content: space-between; /* Logo a la izq, nav a la der */
-    align-items: center;            /* ¡Esto alinea verticalmente! */
-    padding: 1rem 2rem;
-}
 .nav-links {
     display: flex;
     gap: 1.5rem;
@@ -57,11 +135,11 @@ h1 {
 }
   
 .nav-links a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #6A0572;
     font-weight: bold;
     font-family: "Cabin Sketch", sans-serif;
-    font-size: 1.2rem;
+    font-size: 18px;
 }
   
 /* Responsive: apila verticalmente en pantallas chicas */
@@ -71,7 +149,7 @@ h1 {
       gap: 0.5rem;
     }
     .nav-links a {
-      font-size: 1rem;
+      font-size: 16px;
     }
 }
   
@@ -87,12 +165,24 @@ p.p-logo {
     font-style: normal;
     display: flex;
     justify-content: flex-start;
-    padding: 0rem 20rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 0rem;
     font-size: 24px;
 }
 
-div.section {
+/*.p {
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    padding: 0rem 0rem 0rem 0rem;
+    font-size: 18px;
+}
+*/
+.img {
+    justify-content: flex-end;
+}
+
+body {
+    display: grid;
 }
