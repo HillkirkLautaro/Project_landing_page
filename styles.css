@@ -212,17 +212,79 @@ p.p-logo {
 
 body {
     display: grid;
+    margin: 0;
+}
+
+button {
+    padding: 1rem;
+    background-color: #6A0572;
+    color: #A8E6CF;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #6A0572;
+    border: 2px solid #ffffff;
 }
 
 .divsignup {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: #4A4A4A;
     color: #6A0572;
     font-family: 'Cabin Sketch', cursive;
     font-size: 18px;
     margin: 60px;
+    border-radius: 25px;
+    padding: 20px;
+    gap: 20px;
 }
+
+.divsignup-left {
+    padding-right: 20px;
+    text-align: left;
+}
+
+.divsignup-right {
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section-container {
+    display: flex;
+    flex-wrap: wrap; /* permite que bajen si no entran */
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .section-item {
+    display: flex;
+    flex-direction: column; /* imagen arriba, texto abajo */
+    align-items: center;
+    background-color: #4A4A4A;
+    color: #6A0572;
+    font-family: 'Cabin Sketch', cursive;
+    border-radius: 15px;
+    padding: 10px;
+    max-width: 200px;
+    flex: 1 1 150px; /* responsive: ocupa mínimo 150px */
+    text-align: center;
+  }
+  
+  .sectionimg {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
