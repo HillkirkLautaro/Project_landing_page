@@ -196,12 +196,12 @@ p.p-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;  /* Adjust size as needed */
-  height: 200px; /* Should be same as width */
+  width: 200px;  
+  height: 200px; 
   border: 10px solid #ffff00;
-  border-radius: 50%;  /* This makes it circular */
-  overflow: hidden;    /* Keeps the image within the circle */
-  margin: 1rem auto;  /* Centers the circle and adds spacing */
+  border-radius: 50%;  
+  overflow: hidden;    
+  margin: 1rem auto;  
 }
 
 .sectionimg img {
@@ -274,7 +274,7 @@ button:hover {
     background-color: #4A4A4A;
     color: #6A0572;
     font-family: 'Cabin Sketch', cursive;
-    border-radius: 15px;
+    border-radius: 50px;
     padding: 10px;
     max-width: 200px;
     flex: 1 1 150px; /* responsive: ocupa mínimo 150px */
@@ -285,6 +285,6 @@ button:hover {
     width: 100%;
     max-width: 150px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 100px;
   }
   
