@@ -1,61 +1,20 @@
-# Landing Page Project
+# Project Landing Page
 
-![Preview](./dark-kitty.png)
+## Próximas Mejoras Pendientes
 
-Este es un proyecto de página de aterrizaje (landing page) desarrollado como parte del currículo de The Odin Project. La página está diseñada para ser responsiva y utiliza HTML5 y CSS3 moderno.
+### Mejora en el Diseño de Imágenes
 
-## Características
+1. **Diseño Horizontal**
+   - Cambiar la disposición de las imágenes circulares con borde amarillo a horizontal
+   - Asegurar espaciado uniforme entre las imágenes
+   - Hacer el diseño responsivo para diferentes tamaños de pantalla
 
-- Diseño responsivo que se adapta a diferentes tamaños de pantalla
-- Barra de navegación con menú adaptable
-- Secciones bien estructuradas
-- Tipografías personalizadas de Google Fonts
-- Estilos CSS modernos con Flexbox
+2. **Optimización Visual**
+   - Ajustar el tamaño de las imágenes para que se vean bien en fila
+   - Mantener la proporción circular con el borde amarillo
+   - Asegurar que el texto debajo de cada imagen esté alineado correctamente
 
-## Tecnologías Utilizadas
-
-- HTML5
-- CSS3
-  - Flexbox para el diseño
-  - Media Queries para la responsividad
-- Google Fonts
-  - Cabin Sketch
-  - Freckle Face
-
-## Estructura del Proyecto
-
-```
-project_landing_page/
-├── index.html          # Archivo principal HTML
-├── styles.css         # Estilos CSS
-├── dark-kitty.png     # Imagen de ejemplo
-└── README.md          # Este archivo
-```
-
-## Cómo Usar
-
-1. Clona este repositorio o descarga los archivos
-2. Abre el archivo `index.html` en tu navegador web
-3. Explora la página y redimensiona la ventana del navegador para ver la respuesta responsiva
-
-## Personalización
-
-Puedes personalizar esta landing page modificando:
-
-- Los colores en el archivo `styles.css`
-- El contenido en el archivo `index.html`
-- Las fuentes en las etiquetas `<link>` del `index.html`
-- Las imágenes reemplazando `dark-kitty.png`
-
-## Vista Previa
-
-![Vista previa de la página](./dark-kitty.png)
-
-## Créditos
-
-- [The Odin Project](https://www.theodinproject.com/)
-- [Google Fonts](https://fonts.google.com/)
-
----
-
-Desarrollado como parte del currículo de [The Odin Project](https://www.theodinproject.com/).
+3. **Mejoras Técnicas**
+   - Optimizar el CSS para el diseño horizontal
+   - Asegurar que las imágenes se ajusten correctamente en dispositivos móviles
+   - Mantener la consistencia visual en todos los navegadores
