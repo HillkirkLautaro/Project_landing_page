@@ -33,4 +33,4 @@ Para el desarrollo de esta landing page, me basé en los siguientes diseños de 
 
 ## Cómo ver el proyecto
 
-Ir a este link [https://lautarohillkirk.github.io/Project_landing_page/](https://hillkirklautaro.github.io/Project_landing_page/)
+Ir a este link [https://hillkirklautaro.github.io/Project_landing_page/](https://hillkirklautaro.github.io/Project_landing_page/)
