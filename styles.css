@@ -37,8 +37,7 @@
     flex-direction: column;
 }
 .section h2 {
-    font-size: 24px;
-    margin: 0 0 1rem 0;
+    font-size: 36px;
     color: #4A4A4A;
     padding: 0;
     font-family: 'Cabin Sketch', cursive;
@@ -48,7 +47,17 @@
     align-items: center;
     justify-content: center;
     display: flex;
-  }
+    margin: 0;
+}
+.section h3 {
+    font-size: 24px;
+    color: #4A4A4A;
+    padding: 0;
+    font-family: 'Cabin Sketch', cursive;
+    text-align: right;
+    background-color: #FFC0CB;
+    margin: 0;
+}
 .header h1 {
     font-size: 48px;
     margin: 0 0 1rem 0;
